@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  padding: 20px;
+}
+
+.grid-item {
+  border: 2px solid black;
+  padding: 8px;
+}
+
+.grid-image {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.wall {
+  background-color: #3366cc;
+}
+
+.mario {
+  background-image: url('/public/images/mario.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.diamond {
+  background-image: url('/public/images/diamondlogo.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buttondirection {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  border: solid 1px black;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+.buttondirection:hover {
+  background-color: #ddd;
+}
+
+.buttonrun {
+padding: 10px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  border: solid 1px black;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+  background-color: green;
+  color: white;
+}
+
+.buttonrun:hover {
+  background-color: #0b7a0b;
+}
