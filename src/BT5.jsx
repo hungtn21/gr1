@@ -8,7 +8,7 @@ import {
   useMapEvents,
 } from "react-leaflet";
 import L from "leaflet";
-import axios from "axios";
+import axios from 'axios';
 import "leaflet/dist/leaflet.css";
 
 // Fix for default marker icons in Leaflet
